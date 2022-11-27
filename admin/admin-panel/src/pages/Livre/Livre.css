@@ -1,0 +1,117 @@
+.livre{
+	flex: 4;
+	padding: 20px;
+}
+.livreTitleContainer{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.livreAddButton{
+	font-size: 16px;
+	width: 80px;
+	color: #ffff;
+	background-color: #425572;
+	border: none;
+	padding: 5px;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+.livreContainer{
+	display: flex;
+	margin-top: 20px;
+
+}
+.livreShow{
+	flex: 1;
+		padding: 20px;
+	box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.livreUpdate{
+	flex: 2;
+	padding: 20px;
+	margin-left: 20px;
+	box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.livreShowTop{
+	display: flex;
+	align-items: center;
+}
+.livreShowTopTitle{
+display: flex;
+flex-direction: column;
+margin-left: 20px;
+}
+.livreShowTopName{
+	font-weight: 900;
+	font-size: 29px !important;
+}
+.livreShowTopBy{
+	font-weight: 300;
+	color: gainsboro;
+}
+.livreShowBottom{
+	display: flex;
+	flex-direction: column;
+	margin-top: 20px;
+}
+.livreShowInfo{
+	display: flex;
+	align-items: center;
+	margin: 10px 0px;
+	color: #444;
+}
+.livreshowIcon{
+	font-size: 25px !important;
+	padding-right: 15px;
+}
+.livreShowTitle{
+font-weight: 700 !important;
+font-size: 23px;
+color: gray;
+}
+.livreUpdateForm{
+	display: flex;
+	justify-content: space-between;
+	margin-top: 20px;
+}
+.livreUpdateTitle{
+	font-weight: 900 ;
+	font-size: 27px;
+}
+.livreUpdateItem{
+	display: flex;
+	flex-direction: column;
+	margin-top: 10px;
+}
+.livreUpdateItem>label{
+	margin-bottom: 5px;
+	font-size: 15px;
+}
+.livreUpdateInput{
+	border: none;
+	width: 250px;
+	height: 30px;
+	border-bottom: 2px solid #425572;
+}
+.livreUpdateImage{
+width: 60px !important;
+height: 50px !important;
+}
+.livreUpdateRight{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+.livreUpdateButton{
+	border: none;
+	cursor: pointer;
+	height: 30px;
+	width: 130px;
+	color: #ffff;
+	font-weight: 800;
+	font-size: 17px;
+	border-radius: 5px;
+	background-color: #425572;
+}

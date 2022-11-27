@@ -1,0 +1,114 @@
+.Commande{
+	flex: 4;
+	padding: 20px;
+}
+.CommandeTitleContainer{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.CommandeAddButton{
+	font-size: 16px;
+	width: 80px;
+	color: #ffff;
+	background-color: #425572;
+	border: none;
+	padding: 5px;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+.CommandeContainer{
+	display: flex;
+	margin-top: 20px;
+
+}
+.CommandeShow{
+	flex: 1;
+		padding: 20px;
+	box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.CommandeUpdate{
+	flex: 2;
+	padding: 20px;
+	margin-left: 20px;
+	box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.CommandeShowTop{
+	display: flex;
+	align-items: center;
+}
+.CommandeShowTopTitle{
+display: flex;
+flex-direction: column;
+margin-left: 20px;
+}
+.CommandeShowTopName{
+	font-weight: 900;
+	font-size: 29px !important;
+}
+.CommandeShowTopBy{
+	font-weight: 300;
+	color: gainsboro;
+}
+.CommandeShowBottom{
+	display: flex;
+	flex-direction: column;
+	margin-top: 20px;
+}
+.CommandeShowInfo{
+	display: flex;
+	align-items: center;
+	margin: 10px 0px;
+	color: #444;
+}
+.CommandeshowIcon{
+	font-weight: 600;
+	font-size: 15px !important;
+	padding-right: 15px;
+}
+.CommandeShowTitle{
+font-weight: 700 !important;
+font-size: 23px;
+color: gray;
+}
+.CommandeUpdateForm{
+	display: flex;
+	justify-content: space-between;
+	margin-top: 20px;
+}
+.CommandeUpdateTitle{
+	font-weight: 900 ;
+	font-size: 27px;
+}
+.CommandeUpdateItem{
+	display: flex;
+	flex-direction: column;
+	margin-top: 10px;
+}
+.CommandeUpdateItem>label{
+	margin-bottom: 5px;
+	font-size: 15px;
+}
+.CommandeUpdateInput{
+	border: none;
+	width: 250px;
+	height: 30px;
+	border-bottom: 2px solid #425572;
+}
+.CommandeUpdateRight{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+.CommandeUpdateButton{
+	border: none;
+	cursor: pointer;
+	height: 30px;
+	width: 130px;
+	color: #ffff;
+	font-weight: 800;
+	font-size: 17px;
+	border-radius: 5px;
+	background-color: #425572;
+}

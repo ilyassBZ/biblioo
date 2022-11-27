@@ -1,0 +1,57 @@
+.newLivre{
+	flex: 4;
+}
+.newLivreForm{
+	display: flex;
+	flex-wrap: wrap;
+
+	margin-left: 20px;
+}
+.newLivreTitle{
+	padding-top: 20px;
+	padding-left: 10px;
+		display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.newLivreItem{
+	width: 400px;
+	display: flex;
+	flex-direction: column;
+	margin-top: 20px;
+	margin-right: 20px;
+}
+.newLivreItem>label{
+	margin-bottom: 10px;
+	font-weight: 600;
+	font-size: 15px;
+	color: rgb(95, 94, 94);
+}
+.newLivreItem>input{
+	height: 20px;
+	padding: 10px;
+	border: 3px solid #425572;
+	border-radius: 5px;
+}
+.newLivreItem>textarea{
+	height: 20px;
+	padding: 10px;
+	border: 3px solid #425572;
+	border-radius: 5px;
+}
+.newLivreSelect{
+	height: 40px;
+	border-radius: 5px;
+	border: 3px solid #425572;
+}
+.newLivreBotton{
+	width: 200px;
+	border: none;
+	background-color: #425572;
+	color: #ffff;
+	padding: 7px 10px;
+	font-weight: 600;
+	border-radius: 10px;
+	margin-top: 20px;
+	cursor: pointer;
+}

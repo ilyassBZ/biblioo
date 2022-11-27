@@ -1,0 +1,84 @@
+.categorie{
+	flex: 4;
+	padding: 20px;
+}
+.categorieTitleContainer{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.categorieAddButton{
+	font-size: 16px;
+	width: 80px;
+	color: #ffff;
+	background-color: #425572;
+	border: none;
+	padding: 5px;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+.categorieContainer{
+	display: flex;
+	margin-top: 20px;
+
+}
+.categorieShow{
+	flex: 1;
+		padding: 20px;
+	box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.categorieUpdate{
+	flex: 2;
+	padding: 20px;
+	margin-left: 20px;
+	box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.categorieShowTop{
+	display: flex;
+	align-items: center;
+}
+.categorieShowTopTitle{
+display: flex;
+flex-direction: column;
+margin-left: 20px;
+}
+.categorieShowTopName{
+	font-weight: 900;
+	font-size: 29px !important;
+}
+.categorieUpdateForm{
+	display: flex;
+	justify-content: space-between;
+	margin-top: 20px;
+}
+.categorieUpdateTitle{
+	font-weight: 900 ;
+	font-size: 27px;
+}
+.categorieUpdateItem{
+	display: flex;
+	flex-direction: column;
+	margin-top: 10px;
+}
+.categorieUpdateItem>label{
+	margin-bottom: 5px;
+	font-size: 15px;
+}
+.categorieUpdateInput{
+	border: none;
+	width: 250px;
+	height: 30px;
+	border-bottom: 2px solid #425572;
+}
+.categorieUpdateButton{
+	border: none;
+	cursor: pointer;
+	height: 30px;
+	width: 130px;
+	color: #ffff;
+	font-weight: 800;
+	font-size: 17px;
+	border-radius: 5px;
+	background-color: #425572;
+}

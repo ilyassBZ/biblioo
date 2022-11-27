@@ -1,0 +1,45 @@
+.newCommande{
+	flex: 4;
+}
+.newCommandeForm{
+	display: flex;
+	flex-wrap: wrap;
+
+	margin-left: 20px;
+}
+.newCommandeTitle{
+	padding-top: 20px;
+	padding-left: 10px;
+		display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.newCommandeItem{
+	width: 400px;
+	display: flex;
+	flex-direction: column;
+	margin-top: 20px;
+	margin-right: 20px;
+}
+.newCommandeItem>label{
+	margin-bottom: 10px;
+	font-weight: 600;
+	font-size: 15px;
+	color: rgb(95, 94, 94);
+}
+.newCommandeItem>input{
+	height: 20px;
+	padding: 10px;
+	border: 3px solid #425572;
+	border-radius: 5px;
+}
+.newCommandeBotton{
+	width: 200px;
+	border: none;
+	background-color: #425572;
+	color: #ffff;
+	font-weight: 600;
+	border-radius: 10px;
+	margin-top: 60px;
+	cursor: pointer;
+}
